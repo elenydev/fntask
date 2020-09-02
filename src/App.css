@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+
+}
+
+.stocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 900px;
+    max-width: 90vw;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.stocks__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.investments {
+    width: 900px;
+    max-width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.investments__list {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.invesments__list__header {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    width: 100%;
+}
+
+.investments__list__item {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 3px;
+    font-size: 0.9rem;
+
+}
+
+.investments__list__item>span {
+    margin: 4px 0;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.date__container {
+    width: 900px;
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    margin-top: 50px;
+    flex: 0;
+}
